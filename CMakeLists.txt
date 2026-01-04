@@ -72,7 +72,7 @@ target_include_directories(realmd
 
 target_link_libraries(realmd
     PUBLIC
-        shared
+        shared_${MANGOS_EXPANSION}
         Threads::Threads
         ${OPENSSL_LIBRARIES}
 #if (defined(OPENSSL_VERSION_MAJOR) && OPENSSL_VERSION_MAJOR >= 3)
