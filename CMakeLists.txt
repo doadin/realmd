@@ -68,6 +68,7 @@ target_include_directories(realmd
         ${CMAKE_CURRENT_SOURCE_DIR}
         ${CMAKE_CURRENT_BINARY_DIR}/VersionInfo.h
         ${CMAKE_SOURCE_DIR}/src/shared_${MANGOS_EXPANSION}/Common
+        ${CMAKE_SOURCE_DIR}/src/shared_${MANGOS_EXPANSION}/Platform
         ${OPENSSL_INCLUDE_DIR}
 )
 
